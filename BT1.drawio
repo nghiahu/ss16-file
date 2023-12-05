@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2023-12-05T21:02:57.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GVCByxkuBWB9lMXMDCEI" version="22.1.5" type="device">
+  <diagram name="Trang-1" id="DUhb8cPBy1HLtkm8JyA8">
+    <mxGraphModel dx="1006" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-1" target="kiqQ4Z-NN98K-8ioGOlR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-2" target="kiqQ4Z-NN98K-8ioGOlR-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-2" value="* filePointer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-4" target="kiqQ4Z-NN98K-8ioGOlR-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-4" value="filePointer = fopen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-9" value="True" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-6" target="kiqQ4Z-NN98K-8ioGOlR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-13" value="False" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-6" target="kiqQ4Z-NN98K-8ioGOlR-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="510" />
+              <mxPoint x="240" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-6" value="filePointer == NULL" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-8" target="kiqQ4Z-NN98K-8ioGOlR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-8" value="Khong the mo duoc file" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-10" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-12" target="kiqQ4Z-NN98K-8ioGOlR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-12" value="Nhap chuoi" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-14" target="kiqQ4Z-NN98K-8ioGOlR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-14" value="fprintf(filePointer)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kiqQ4Z-NN98K-8ioGOlR-16" target="kiqQ4Z-NN98K-8ioGOlR-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kiqQ4Z-NN98K-8ioGOlR-16" value="fclose(filePointer)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
